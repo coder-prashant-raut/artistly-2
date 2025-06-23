@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "DJ Nova",
+    "category": "DJ",
+    "location": "Mumbai",
+    "price": 15000,
+    "image": "https://source.unsplash.com/featured/?dj"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sings",
+    "category": "Singer",
+    "location": "Delhi",
+    "price": 18000,
+    "image": "https://source.unsplash.com/featured/?singer"
+  },
+  {
+    "id": 3,
+    "name": "Dance Beats",
+    "category": "Dancer",
+    "location": "Bangalore",
+    "price": 12000,
+    "image": "https://source.unsplash.com/featured/?dance"
+  },
+  {
+    "id": 4,
+    "name": "Voice Master",
+    "category": "Speaker",
+    "location": "Hyderabad",
+    "price": 10000,
+    "image": "https://source.unsplash.com/featured/?publicspeaking"
+  }
+]
