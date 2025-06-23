@@ -1,34 +1,362 @@
 [
   {
     "id": 1,
-    "name": "DJ Nova",
-    "category": "DJ",
-    "location": "Mumbai",
-    "price": 15000,
-    "image": "https://source.unsplash.com/featured/?dj"
+    "name": "Urban Crew 1",
+    "category": "Dancer",
+    "location": "Delhi",
+    "price": 12501,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,1"
   },
   {
     "id": 2,
-    "name": "Priya Sings",
-    "category": "Singer",
-    "location": "Delhi",
-    "price": 18000,
-    "image": "https://source.unsplash.com/featured/?singer"
+    "name": "DJ Pulse 2",
+    "category": "DJ",
+    "location": "Jaipur",
+    "price": 16588,
+    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
+    "image": "https://source.unsplash.com/featured/?dj,2"
   },
   {
     "id": 3,
-    "name": "Dance Beats",
-    "category": "Dancer",
-    "location": "Bangalore",
-    "price": 12000,
-    "image": "https://source.unsplash.com/featured/?dance"
+    "name": "DJ Blaze 3",
+    "category": "DJ",
+    "location": "Delhi",
+    "price": 11344,
+    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
+    "image": "https://source.unsplash.com/featured/?dj,3"
   },
   {
     "id": 4,
-    "name": "Voice Master",
+    "name": "Shreya Soul 4",
+    "category": "Singer",
+    "location": "Kolkata",
+    "price": 20839,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,4"
+  },
+  {
+    "id": 5,
+    "name": "MotiveMind 5",
+    "category": "Speaker",
+    "location": "Chennai",
+    "price": 10523,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,5"
+  },
+  {
+    "id": 6,
+    "name": "Shreya Soul 6",
+    "category": "Singer",
+    "location": "Kolkata",
+    "price": 13995,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,6"
+  },
+  {
+    "id": 7,
+    "name": "PowerPitch 7",
+    "category": "Speaker",
+    "location": "Jaipur",
+    "price": 24902,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,7"
+  },
+  {
+    "id": 8,
+    "name": "Steps Studio 8",
+    "category": "Dancer",
+    "location": "Delhi",
+    "price": 16860,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,8"
+  },
+  {
+    "id": 9,
+    "name": "PowerPitch 9",
+    "category": "Speaker",
+    "location": "Mumbai",
+    "price": 9798,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,9"
+  },
+  {
+    "id": 10,
+    "name": "Kunal Raag 10",
+    "category": "Singer",
+    "location": "Pune",
+    "price": 24246,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,10"
+  },
+  {
+    "id": 11,
+    "name": "Move Nation 11",
+    "category": "Dancer",
+    "location": "Mumbai",
+    "price": 17756,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,11"
+  },
+  {
+    "id": 12,
+    "name": "Urban Crew 12",
+    "category": "Dancer",
+    "location": "Bangalore",
+    "price": 24437,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,12"
+  },
+  {
+    "id": 13,
+    "name": "Anjali Vox 13",
+    "category": "Singer",
+    "location": "Kolkata",
+    "price": 10786,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,13"
+  },
+  {
+    "id": 14,
+    "name": "Growth Guru 14",
+    "category": "Speaker",
+    "location": "Bangalore",
+    "price": 13055,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,14"
+  },
+  {
+    "id": 15,
+    "name": "Voice Master 15",
+    "category": "Speaker",
+    "location": "Bangalore",
+    "price": 14846,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,15"
+  },
+  {
+    "id": 16,
+    "name": "Anjali Vox 16",
+    "category": "Singer",
+    "location": "Jaipur",
+    "price": 23850,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,16"
+  },
+  {
+    "id": 17,
+    "name": "Kunal Raag 17",
+    "category": "Singer",
+    "location": "Chennai",
+    "price": 9940,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,17"
+  },
+  {
+    "id": 18,
+    "name": "InspireTalks 18",
     "category": "Speaker",
     "location": "Hyderabad",
-    "price": 10000,
-    "image": "https://source.unsplash.com/featured/?publicspeaking"
+    "price": 10465,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,18"
+  },
+  {
+    "id": 19,
+    "name": "RhythmX 19",
+    "category": "Dancer",
+    "location": "Mumbai",
+    "price": 24821,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,19"
+  },
+  {
+    "id": 20,
+    "name": "Dance Vibe 20",
+    "category": "Dancer",
+    "location": "Bangalore",
+    "price": 16241,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,20"
+  },
+  {
+    "id": 21,
+    "name": "Rohan Melody 21",
+    "category": "Singer",
+    "location": "Chennai",
+    "price": 10391,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,21"
+  },
+  {
+    "id": 22,
+    "name": "Anjali Vox 22",
+    "category": "Singer",
+    "location": "Hyderabad",
+    "price": 21704,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,22"
+  },
+  {
+    "id": 23,
+    "name": "Move Nation 23",
+    "category": "Dancer",
+    "location": "Delhi",
+    "price": 17537,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,23"
+  },
+  {
+    "id": 24,
+    "name": "Growth Guru 24",
+    "category": "Speaker",
+    "location": "Chennai",
+    "price": 20803,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,24"
+  },
+  {
+    "id": 25,
+    "name": "Dance Vibe 25",
+    "category": "Dancer",
+    "location": "Mumbai",
+    "price": 22831,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,25"
+  },
+  {
+    "id": 26,
+    "name": "RhythmX 26",
+    "category": "Dancer",
+    "location": "Delhi",
+    "price": 18649,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,26"
+  },
+  {
+    "id": 27,
+    "name": "Steps Studio 27",
+    "category": "Dancer",
+    "location": "Bangalore",
+    "price": 14582,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,27"
+  },
+  {
+    "id": 28,
+    "name": "Kunal Raag 28",
+    "category": "Singer",
+    "location": "Jaipur",
+    "price": 23356,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,28"
+  },
+  {
+    "id": 29,
+    "name": "InspireTalks 29",
+    "category": "Speaker",
+    "location": "Jaipur",
+    "price": 12392,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,29"
+  },
+  {
+    "id": 30,
+    "name": "Shreya Soul 30",
+    "category": "Singer",
+    "location": "Bangalore",
+    "price": 13328,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,30"
+  },
+  {
+    "id": 31,
+    "name": "DJ Rhythm 31",
+    "category": "DJ",
+    "location": "Delhi",
+    "price": 10816,
+    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
+    "image": "https://source.unsplash.com/featured/?dj,31"
+  },
+  {
+    "id": 32,
+    "name": "DJ Blaze 32",
+    "category": "DJ",
+    "location": "Hyderabad",
+    "price": 9564,
+    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
+    "image": "https://source.unsplash.com/featured/?dj,32"
+  },
+  {
+    "id": 33,
+    "name": "RhythmX 33",
+    "category": "Dancer",
+    "location": "Pune",
+    "price": 12186,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,33"
+  },
+  {
+    "id": 34,
+    "name": "RhythmX 34",
+    "category": "Dancer",
+    "location": "Chennai",
+    "price": 23954,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,34"
+  },
+  {
+    "id": 35,
+    "name": "Dance Vibe 35",
+    "category": "Dancer",
+    "location": "Jaipur",
+    "price": 20105,
+    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
+    "image": "https://source.unsplash.com/featured/?dancer,35"
+  },
+  {
+    "id": 36,
+    "name": "Shreya Soul 36",
+    "category": "Singer",
+    "location": "Mumbai",
+    "price": 21830,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,36"
+  },
+  {
+    "id": 37,
+    "name": "DJ Pulse 37",
+    "category": "DJ",
+    "location": "Jaipur",
+    "price": 22888,
+    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
+    "image": "https://source.unsplash.com/featured/?dj,37"
+  },
+  {
+    "id": 38,
+    "name": "Anjali Vox 38",
+    "category": "Singer",
+    "location": "Mumbai",
+    "price": 10601,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,38"
+  },
+  {
+    "id": 39,
+    "name": "Voice Master 39",
+    "category": "Speaker",
+    "location": "Delhi",
+    "price": 17142,
+    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
+    "image": "https://source.unsplash.com/featured/?speaker,39"
+  },
+  {
+    "id": 40,
+    "name": "Shreya Soul 40",
+    "category": "Singer",
+    "location": "Pune",
+    "price": 18924,
+    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
+    "image": "https://source.unsplash.com/featured/?singer,40"
   }
 ]
