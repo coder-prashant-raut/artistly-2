@@ -1,17 +1,20 @@
 import "../app/globals.css";
-import Navbar from "../components/Navbar.jsx";
+import Navbar from "@/components/Navbar";
+import { ThemeProvider } from "@/components/theme/ThemeContext";
 
 export const metadata = {
-  title: "Artistly - Book Artists",
-  description: "Discover, filter and book top performing artists for your events.",
+  title: "Artistly",
+  description: "Book top performing artists for your event",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        <main className="max-w-6xl mx-auto px-4">{children}</main>
+        <ThemeProvider>
+          <Navbar />
+          <main>{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );
