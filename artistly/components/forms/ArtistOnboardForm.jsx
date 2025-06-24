@@ -1,9 +1,13 @@
 "use client";
-import { useState } from "react";
+
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import { toast } from "react-hot-toast";
+import { useTheme } from "@/components/theme/ThemeContext.jsx"; // ✅ your global theme
 
 export default function ArtistOnboardForm() {
+  const { theme } = useTheme();
   const [form, setForm] = useState({
     name: "",
     category: "",
@@ -14,22 +18,54 @@ export default function ArtistOnboardForm() {
   });
   const [step, setStep] = useState(1);
   const [submitted, setSubmitted] = useState(false);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, [step]);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleNext = () => {
-    if (step < 3) setStep(step + 1);
+  const validateStep = () => {
+    switch (step) {
+      case 1:
+        if (!form.name.trim() || !form.location.trim()) {
+          toast.error("Name and location are required");
+          return false;
+        }
+        break;
+      case 2:
+        if (!form.category.trim() || !form.price.trim()) {
+          toast.error("Category and price are required");
+          return false;
+        }
+        break;
+      case 3:
+        if (!form.description.trim()) {
+          toast.error("Description is required");
+          return false;
+        }
+        break;
+      default:
+        break;
+    }
+    return true;
   };
 
-  const handlePrev = () => {
-    if (step > 1) setStep(step - 1);
+  const handleNext = () => {
+    if (validateStep()) setStep((prev) => prev + 1);
   };
+
+  const handlePrev = () => setStep((prev) => Math.max(1, prev - 1));
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    if (validateStep()) {
+      toast.success("🎉 Application submitted!");
+      setSubmitted(true);
+    }
   };
 
   if (submitted) {
@@ -37,10 +73,12 @@ export default function ArtistOnboardForm() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-center p-10 bg-white dark:bg-zinc-800 rounded-xl shadow-lg"
+        className={`text-center p-10 rounded-xl shadow-lg ${
+          theme === "dark" ? "bg-zinc-800 text-white" : "bg-white text-gray-900"
+        }`}
       >
         <h2 className="text-2xl font-semibold text-green-600 dark:text-green-400 mb-4">
-          🎉 Application submitted successfully!
+          ✅ Application Submitted!
         </h2>
         <Link
           href="/"
@@ -55,7 +93,9 @@ export default function ArtistOnboardForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-6 bg-white dark:bg-zinc-800 p-8 rounded-xl shadow-xl w-full max-w-2xl mx-auto"
+      className={`space-y-6 p-8 rounded-xl shadow-xl w-full max-w-2xl mx-auto transition-colors duration-300 ${
+        theme === "dark" ? "bg-zinc-800 text-white" : "bg-white text-gray-900"
+      }`}
     >
       <AnimatePresence mode="wait">
         <motion.div
@@ -71,23 +111,30 @@ export default function ArtistOnboardForm() {
               <div>
                 <label className="block text-sm font-medium mb-1">Full Name</label>
                 <input
+                  ref={inputRef}
                   name="name"
-                  required
                   value={form.name}
                   onChange={handleChange}
                   placeholder="Enter artist name"
-                  className="w-full border px-4 py-2 rounded text-sm bg-white dark:bg-zinc-700 dark:text-white"
+                  className={`w-full border px-4 py-2 rounded text-sm ${
+                    theme === "dark"
+                      ? "bg-zinc-700 text-white border-zinc-600"
+                      : "bg-white text-gray-900 border-gray-300"
+                  }`}
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium mb-1">Location</label>
                 <input
                   name="location"
-                  required
                   value={form.location}
                   onChange={handleChange}
                   placeholder="City, Country"
-                  className="w-full border px-4 py-2 rounded text-sm bg-white dark:bg-zinc-700 dark:text-white"
+                  className={`w-full border px-4 py-2 rounded text-sm ${
+                    theme === "dark"
+                      ? "bg-zinc-700 text-white border-zinc-600"
+                      : "bg-white text-gray-900 border-gray-300"
+                  }`}
                 />
               </div>
             </>
@@ -99,10 +146,13 @@ export default function ArtistOnboardForm() {
                 <label className="block text-sm font-medium mb-1">Category</label>
                 <select
                   name="category"
-                  required
                   value={form.category}
                   onChange={handleChange}
-                  className="w-full border px-4 py-2 rounded text-sm bg-white dark:bg-zinc-700 dark:text-white"
+                  className={`w-full border px-4 py-2 rounded text-sm ${
+                    theme === "dark"
+                      ? "bg-zinc-700 text-white border-zinc-600"
+                      : "bg-white text-gray-900 border-gray-300"
+                  }`}
                 >
                   <option value="">Select</option>
                   <option>Singer</option>
@@ -116,11 +166,14 @@ export default function ArtistOnboardForm() {
                 <input
                   name="price"
                   type="number"
-                  required
                   value={form.price}
                   onChange={handleChange}
                   placeholder="Expected fee"
-                  className="w-full border px-4 py-2 rounded text-sm bg-white dark:bg-zinc-700 dark:text-white"
+                  className={`w-full border px-4 py-2 rounded text-sm ${
+                    theme === "dark"
+                      ? "bg-zinc-700 text-white border-zinc-600"
+                      : "bg-white text-gray-900 border-gray-300"
+                  }`}
                 />
               </div>
             </>
@@ -135,19 +188,26 @@ export default function ArtistOnboardForm() {
                   value={form.image}
                   onChange={handleChange}
                   placeholder="https://..."
-                  className="w-full border px-4 py-2 rounded text-sm bg-white dark:bg-zinc-700 dark:text-white"
+                  className={`w-full border px-4 py-2 rounded text-sm ${
+                    theme === "dark"
+                      ? "bg-zinc-700 text-white border-zinc-600"
+                      : "bg-white text-gray-900 border-gray-300"
+                  }`}
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium mb-1">Description</label>
                 <textarea
                   name="description"
-                  required
                   value={form.description}
                   onChange={handleChange}
-                  placeholder="Short bio or about the artist..."
                   rows={4}
-                  className="w-full border px-4 py-2 rounded text-sm bg-white dark:bg-zinc-700 dark:text-white"
+                  placeholder="Short bio or about the artist..."
+                  className={`w-full border px-4 py-2 rounded text-sm ${
+                    theme === "dark"
+                      ? "bg-zinc-700 text-white border-zinc-600"
+                      : "bg-white text-gray-900 border-gray-300"
+                  }`}
                 />
               </div>
             </>
@@ -160,11 +220,17 @@ export default function ArtistOnboardForm() {
           <button
             type="button"
             onClick={handlePrev}
-            className="px-4 py-2 text-sm border rounded bg-gray-100 dark:bg-zinc-600 text-gray-800 dark:text-white"
+            className={`px-4 py-2 text-sm border rounded ${
+              theme === "dark"
+                ? "bg-zinc-700 text-white border-zinc-600"
+                : "bg-gray-100 text-gray-900 border-gray-300"
+            }`}
           >
             ⬅ Previous
           </button>
-        ) : <div />}
+        ) : (
+          <div />
+        )}
 
         {step < 3 ? (
           <button
