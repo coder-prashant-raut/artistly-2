@@ -4,33 +4,37 @@ import { createContext, useContext, useEffect, useState } from "react";
 const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    const stored = localStorage.getItem("theme");
+    // Detect system preference
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const system = prefersDark ? "dark" : "light";
-    const applied = stored || system;
+    const stored = localStorage.getItem("theme");
+    const defaultTheme = stored || (prefersDark ? "dark" : "light");
 
-    setTheme(applied);
-    document.documentElement.classList.add(applied);
+    setTheme(defaultTheme);
+    document.documentElement.classList.remove("light", "dark"); // clean slate
+    document.documentElement.classList.add(defaultTheme);
   }, []);
 
   const toggleTheme = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.remove(theme);
+    document.documentElement.classList.remove("light", "dark"); // clean old class
     document.documentElement.classList.add(newTheme);
   };
 
+  // Prevent flicker on first load
+  if (!theme) return null;
+
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      {children}
+      <div className="transition-colors duration-300">{children}</div>
     </ThemeContext.Provider>
   );
 }
 
 export function useTheme() {
-  return useContext(ThemeContext);
+  return useContext(ThemeContext); 
 }

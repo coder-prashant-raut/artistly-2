@@ -21,7 +21,8 @@ export default function ArtistCard({ artist }) {
 
         <div className="mt-4 flex gap-2">
           <a
-            href={`/artists/${artist.id}`}
+          href={`/artists/${artist.name.toLowerCase().replace(/\s+/g, "-")}`}
+
             className="flex-1 text-center bg-gray-100 dark:bg-zinc-700 text-sm text-gray-800 dark:text-white px-4 py-2 rounded hover:bg-gray-200 dark:hover:bg-zinc-600 transition"
           >
             More Details
