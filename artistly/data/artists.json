@@ -1,362 +1,191 @@
 [
   {
-    "id": 1,
-    "name": "Urban Crew 1",
-    "category": "Dancer",
+    "id": "1",
+    "name": "Arijit Singh",
+    "category": "Singer",
+    "location": "Mumbai",
+    "price": 150000,
+    "image": " https://plus.unsplash.com/premium_photo-1682600101311-1121bc732450?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Arijit Singh is a highly respected and renowned singer known for their electrifying performances across Mumbai. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "2",
+    "name": "Neha Kakkar",
+    "category": "Singer",
     "location": "Delhi",
-    "price": 12501,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,1"
+    "price": 155000,
+    "image": "https://images.unsplash.com/photo-1517230878791-4d28214057c2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Neha Kakkar is a highly respected and renowned singer known for their electrifying performances across Delhi. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 2,
-    "name": "DJ Pulse 2",
+    "id": "3",
+    "name": "DJ Shadow",
     "category": "DJ",
-    "location": "Jaipur",
-    "price": 16588,
-    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
-    "image": "https://source.unsplash.com/featured/?dj,2"
+    "location": "Goa",
+    "price": 160000,
+    "image": "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Shadow is a highly respected and renowned dj known for their electrifying performances across Goa. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 3,
-    "name": "DJ Blaze 3",
+    "id": "4",
+    "name": "Sukhwinder Singh",
+    "category": "Singer",
+    "location": "Amritsar",
+    "price": 165000,
+    "image": "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Sukhwinder Singh is a highly respected and renowned singer known for their electrifying performances across Amritsar. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "5",
+    "name": "DJ Ayesha",
     "category": "DJ",
+    "location": "Bangalore",
+    "price": 170000,
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Ayesha is a highly respected and renowned dj known for their electrifying performances across Bangalore. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "6",
+    "name": "Hariharan",
+    "category": "Classical Singer",
+    "location": "Chennai",
+    "price": 175000,
+    "image": "https://plus.unsplash.com/premium_photo-1682595142263-80143c15f68f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Hariharan is a highly respected and renowned classical singer known for their electrifying performances across Chennai. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "7",
+    "name": "DJ Blitz",
+    "category": "DJ",
+    "location": "Pune",
+    "price": 180000,
+    "image": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Blitz is a highly respected and renowned dj known for their electrifying performances across Pune. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "8",
+    "name": "Sunidhi Chauhan",
+    "category": "Singer",
     "location": "Delhi",
-    "price": 11344,
-    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
-    "image": "https://source.unsplash.com/featured/?dj,3"
+    "price": 185000,
+    "image": "https://images.unsplash.com/photo-1612976023590-be5b6a14051d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Sunidhi Chauhan is a highly respected and renowned singer known for their electrifying performances across Delhi. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 4,
-    "name": "Shreya Soul 4",
+    "id": "9",
+    "name": "DJ Chetas",
+    "category": "DJ",
+    "location": "Mumbai",
+    "price": 190000,
+    "image": "https://plus.unsplash.com/premium_photo-1682369073403-f014d51b4180?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Chetas is a highly respected and renowned dj known for their electrifying performances across Mumbai. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "10",
+    "name": "Shreya Ghoshal",
     "category": "Singer",
     "location": "Kolkata",
-    "price": 20839,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,4"
+    "price": 195000,
+    "image": "https://images.unsplash.com/photo-1696946909078-46dc28901ccf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Shreya Ghoshal is a highly respected and renowned singer known for their electrifying performances across Kolkata. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 5,
-    "name": "MotiveMind 5",
-    "category": "Speaker",
-    "location": "Chennai",
-    "price": 10523,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,5"
+    "id": "11",
+    "name": "Badshah",
+    "category": "Rapper",
+    "location": "Chandigarh",
+    "price": 200000,
+    "image": "https://images.unsplash.com/photo-1489602642804-64dea1e3ebc1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Badshah is a highly respected and renowned rapper known for their electrifying performances across Chandigarh. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 6,
-    "name": "Shreya Soul 6",
+    "id": "12",
+    "name": "Jonita Gandhi",
     "category": "Singer",
-    "location": "Kolkata",
-    "price": 13995,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,6"
+    "location": "Toronto",
+    "price": 205000,
+    "image": "https://images.unsplash.com/photo-1501837303764-ada599fdac6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Jonita Gandhi is a highly respected and renowned singer known for their electrifying performances across Toronto. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 7,
-    "name": "PowerPitch 7",
-    "category": "Speaker",
-    "location": "Jaipur",
-    "price": 24902,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,7"
-  },
-  {
-    "id": 8,
-    "name": "Steps Studio 8",
-    "category": "Dancer",
-    "location": "Delhi",
-    "price": 16860,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,8"
-  },
-  {
-    "id": 9,
-    "name": "PowerPitch 9",
-    "category": "Speaker",
-    "location": "Mumbai",
-    "price": 9798,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,9"
-  },
-  {
-    "id": 10,
-    "name": "Kunal Raag 10",
-    "category": "Singer",
-    "location": "Pune",
-    "price": 24246,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,10"
-  },
-  {
-    "id": 11,
-    "name": "Move Nation 11",
-    "category": "Dancer",
-    "location": "Mumbai",
-    "price": 17756,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,11"
-  },
-  {
-    "id": 12,
-    "name": "Urban Crew 12",
-    "category": "Dancer",
-    "location": "Bangalore",
-    "price": 24437,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,12"
-  },
-  {
-    "id": 13,
-    "name": "Anjali Vox 13",
-    "category": "Singer",
-    "location": "Kolkata",
-    "price": 10786,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,13"
-  },
-  {
-    "id": 14,
-    "name": "Growth Guru 14",
-    "category": "Speaker",
-    "location": "Bangalore",
-    "price": 13055,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,14"
-  },
-  {
-    "id": 15,
-    "name": "Voice Master 15",
-    "category": "Speaker",
-    "location": "Bangalore",
-    "price": 14846,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,15"
-  },
-  {
-    "id": 16,
-    "name": "Anjali Vox 16",
-    "category": "Singer",
-    "location": "Jaipur",
-    "price": 23850,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,16"
-  },
-  {
-    "id": 17,
-    "name": "Kunal Raag 17",
-    "category": "Singer",
-    "location": "Chennai",
-    "price": 9940,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,17"
-  },
-  {
-    "id": 18,
-    "name": "InspireTalks 18",
-    "category": "Speaker",
-    "location": "Hyderabad",
-    "price": 10465,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,18"
-  },
-  {
-    "id": 19,
-    "name": "RhythmX 19",
-    "category": "Dancer",
-    "location": "Mumbai",
-    "price": 24821,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,19"
-  },
-  {
-    "id": 20,
-    "name": "Dance Vibe 20",
-    "category": "Dancer",
-    "location": "Bangalore",
-    "price": 16241,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,20"
-  },
-  {
-    "id": 21,
-    "name": "Rohan Melody 21",
-    "category": "Singer",
-    "location": "Chennai",
-    "price": 10391,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,21"
-  },
-  {
-    "id": 22,
-    "name": "Anjali Vox 22",
-    "category": "Singer",
-    "location": "Hyderabad",
-    "price": 21704,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,22"
-  },
-  {
-    "id": 23,
-    "name": "Move Nation 23",
-    "category": "Dancer",
-    "location": "Delhi",
-    "price": 17537,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,23"
-  },
-  {
-    "id": 24,
-    "name": "Growth Guru 24",
-    "category": "Speaker",
-    "location": "Chennai",
-    "price": 20803,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,24"
-  },
-  {
-    "id": 25,
-    "name": "Dance Vibe 25",
-    "category": "Dancer",
-    "location": "Mumbai",
-    "price": 22831,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,25"
-  },
-  {
-    "id": 26,
-    "name": "RhythmX 26",
-    "category": "Dancer",
-    "location": "Delhi",
-    "price": 18649,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,26"
-  },
-  {
-    "id": 27,
-    "name": "Steps Studio 27",
-    "category": "Dancer",
-    "location": "Bangalore",
-    "price": 14582,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,27"
-  },
-  {
-    "id": 28,
-    "name": "Kunal Raag 28",
-    "category": "Singer",
-    "location": "Jaipur",
-    "price": 23356,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,28"
-  },
-  {
-    "id": 29,
-    "name": "InspireTalks 29",
-    "category": "Speaker",
-    "location": "Jaipur",
-    "price": 12392,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,29"
-  },
-  {
-    "id": 30,
-    "name": "Shreya Soul 30",
-    "category": "Singer",
-    "location": "Bangalore",
-    "price": 13328,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,30"
-  },
-  {
-    "id": 31,
-    "name": "DJ Rhythm 31",
-    "category": "DJ",
-    "location": "Delhi",
-    "price": 10816,
-    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
-    "image": "https://source.unsplash.com/featured/?dj,31"
-  },
-  {
-    "id": 32,
-    "name": "DJ Blaze 32",
-    "category": "DJ",
-    "location": "Hyderabad",
-    "price": 9564,
-    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
-    "image": "https://source.unsplash.com/featured/?dj,32"
-  },
-  {
-    "id": 33,
-    "name": "RhythmX 33",
-    "category": "Dancer",
-    "location": "Pune",
-    "price": 12186,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,33"
-  },
-  {
-    "id": 34,
-    "name": "RhythmX 34",
-    "category": "Dancer",
-    "location": "Chennai",
-    "price": 23954,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,34"
-  },
-  {
-    "id": 35,
-    "name": "Dance Vibe 35",
-    "category": "Dancer",
-    "location": "Jaipur",
-    "price": 20105,
-    "description": "High-performance dance group delivering electrifying shows in styles like hip-hop, Bollywood, and contemporary.",
-    "image": "https://source.unsplash.com/featured/?dancer,35"
-  },
-  {
-    "id": 36,
-    "name": "Shreya Soul 36",
-    "category": "Singer",
-    "location": "Mumbai",
-    "price": 21830,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,36"
-  },
-  {
-    "id": 37,
-    "name": "DJ Pulse 37",
+    "id": "13",
+    "name": "DJ Karma",
     "category": "DJ",
     "location": "Jaipur",
-    "price": 22888,
-    "description": "Professional DJ known for high-energy performances, spinning EDM, Bollywood, and fusion music at clubs and private events.",
-    "image": "https://source.unsplash.com/featured/?dj,37"
+    "price": 210000,
+    "image": "https://plus.unsplash.com/premium_photo-1682600101590-fc6e290471b0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Karma is a highly respected and renowned dj known for their electrifying performances across Jaipur. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 38,
-    "name": "Anjali Vox 38",
+    "id": "14",
+    "name": "Jubin Nautiyal",
     "category": "Singer",
-    "location": "Mumbai",
-    "price": 10601,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,38"
+    "location": "Dehradun",
+    "price": 215000,
+    "image": "https://plus.unsplash.com/premium_photo-1681583965458-eec57a2f1bf8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Jubin Nautiyal is a highly respected and renowned singer known for their electrifying performances across Dehradun. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 39,
-    "name": "Voice Master 39",
-    "category": "Speaker",
+    "id": "15",
+    "name": "DJ Tanishq",
+    "category": "DJ",
+    "location": "Hyderabad",
+    "price": 220000,
+    "image": "https://plus.unsplash.com/premium_photo-1682600101396-425bfdd8e7b4?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Tanishq is a highly respected and renowned dj known for their electrifying performances across Hyderabad. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "16",
+    "name": "Kailash Kher",
+    "category": "Folk Singer",
     "location": "Delhi",
-    "price": 17142,
-    "description": "Motivational speaker delivering powerful talks on leadership, personal growth, and success strategies.",
-    "image": "https://source.unsplash.com/featured/?speaker,39"
+    "price": 225000,
+    "image": "https://images.unsplash.com/photo-1733629729650-ffa711be283d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Kailash Kher is a highly respected and renowned folk singer known for their electrifying performances across Delhi. A fan favorite at both intimate venues and large events."
   },
   {
-    "id": 40,
-    "name": "Shreya Soul 40",
+    "id": "17",
+    "name": "Nucleya",
+    "category": "Bass Music Producer",
+    "location": "Mumbai",
+    "price": 230000,
+    "image": "https://plus.unsplash.com/premium_photo-1682600100798-a58f2ac9ac6b?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Nucleya is a highly respected and renowned bass music producer known for their electrifying performances across Mumbai. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "18",
+    "name": "Palak Muchhal",
     "category": "Singer",
-    "location": "Pune",
-    "price": 18924,
-    "description": "Versatile vocalist performing Bollywood, acoustic, and indie music for weddings, concerts, and corporate gigs.",
-    "image": "https://source.unsplash.com/featured/?singer,40"
+    "location": "Indore",
+    "price": 235000,
+    "image": "https://images.unsplash.com/photo-1735891969992-1256311f791a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Palak Muchhal is a highly respected and renowned singer known for their electrifying performances across Indore. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "19",
+    "name": "DJ Pratik",
+    "category": "DJ",
+    "location": "Nagpur",
+    "price": 240000,
+    "image": "https://images.unsplash.com/photo-1735891969992-1256311f791a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "DJ Pratik is a highly respected and renowned dj known for their electrifying performances across Nagpur. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "20",
+    "name": "Asees Kaur",
+    "category": "Singer",
+    "location": "Ludhiana",
+    "price": 245000,
+    "image": "https://images.unsplash.com/photo-1521337706264-a414f153a5ed?q=80&w=1121&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Asees Kaur is a highly respected and renowned singer known for their electrifying performances across Ludhiana. A fan favorite at both intimate venues and large events."
+  },
+  {
+    "id": "21",
+    "name": "Raftaar",
+    "category": "Rapper",
+    "location": "Delhi",
+    "price": 250000,
+    "image": "https://plus.unsplash.com/premium_photo-1682595142935-dbbd28266328?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Raftaar is a highly respected and renowned rapper known for their electrifying performances across Delhi. A fan favorite at both intimate venues and large events."
   }
 ]
