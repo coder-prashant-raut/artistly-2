@@ -16,6 +16,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Artists", href: "/artists" },
     { name: "Onboard", href: "/onboard" },
+    { name: "Dashboard", href: "/dashboard" },
   ];
 
   const isDark = theme === "dark";
@@ -28,7 +29,11 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <h1 className={`text-xl font-bold ${isDark ? "text-blue-300" : "text-blue-700"}`}>
+        <h1
+          className={`text-xl font-bold ${
+            isDark ? "text-blue-300" : "text-blue-700"
+          }`}
+        >
           <Link href="/">🎤 Artistly</Link>
         </h1>
 
@@ -59,7 +64,9 @@ export default function Navbar() {
           <ThemeToggle />
           {/* Mobile Toggle */}
           <button
-            className={`md:hidden ${isDark ? "text-gray-300" : "text-gray-700"}`}
+            className={`md:hidden ${
+              isDark ? "text-gray-300" : "text-gray-700"
+            }`}
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle Menu"
           >
