@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "artistly/next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "artistly/$1"
+    },
+    {
+  "rootDirectory": "artistly"
+}
+
+  ]
+}
